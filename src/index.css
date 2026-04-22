@@ -16,12 +16,29 @@
   --font-mono: "Geist Mono", ui-monospace, "SF Mono", monospace;
 }
 
+/* Dark theme — warm espresso, cream ink (preserves Editorial Luxury warmth) */
+[data-theme="dark"] {
+  --color-paper: #12100d;
+  --color-paper-soft: #1c1914;
+  --color-paper-deep: #24201a;
+  --color-ink: #f5f4f0;
+  --color-ink-soft: #e7e3d8;
+  --color-muted: #918b7f;
+  --color-line: #3a3428;
+  --color-line-soft: #231f18;
+  --color-accent: #d05c34;
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
+    color-scheme: light;
+  }
+  html[data-theme="dark"] {
+    color-scheme: dark;
   }
   body {
     background: var(--color-paper);
@@ -29,6 +46,14 @@
     font-family: var(--font-sans);
     font-feature-settings: "ss01", "ss02", "cv11";
     font-synthesis: none;
+    transition: background-color 0.4s cubic-bezier(0.32, 0.72, 0, 1),
+                color 0.4s cubic-bezier(0.32, 0.72, 0, 1);
+  }
+  /* Smooth color-only transitions on all surfaces during theme swap */
+  *, *::before, *::after {
+    transition-property: background-color, border-color, color, fill, stroke, box-shadow;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.32, 0.72, 0, 1);
   }
   ::selection {
     background: var(--color-ink);
@@ -45,19 +70,10 @@
     mix-blend-mode: multiply;
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 240 240' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   }
-}
-
-/* —— marquee —— */
-@keyframes marquee {
-  to {
-    transform: translateX(-50%);
+  html[data-theme="dark"] body::after {
+    opacity: 0.07;
+    mix-blend-mode: screen;
   }
-}
-.marquee-track {
-  animation: marquee 50s linear infinite;
-}
-.marquee-track:hover {
-  animation-play-state: paused;
 }
 
 /* —— reveal —— */

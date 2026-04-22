@@ -1,5 +1,6 @@
 import { motion, useScroll } from "motion/react";
 import { useEffect, useState } from "react";
+import ThemeToggle from "./ThemeToggle";
 
 const links = [
   { href: "#about", label: "About" },
@@ -60,16 +61,19 @@ export default function Nav() {
           ))}
         </ul>
 
-        <a
-          href="#contact"
-          className="group hidden items-center gap-2 border border-ink/25 px-4 py-2 font-mono text-[10px] uppercase tracking-[0.25em] transition-colors duration-300 hover:bg-ink hover:text-paper md:inline-flex"
-        >
-          <span className="relative inline-flex size-1.5 items-center justify-center">
-            <span className="absolute inline-flex size-full rounded-full bg-accent opacity-60 blink" />
-            <span className="relative inline-flex size-1.5 rounded-full bg-accent" />
-          </span>
-          Available
-        </a>
+        <div className="flex items-center gap-3">
+          <ThemeToggle />
+          <a
+            href="#contact"
+            className="group hidden items-center gap-2 border border-ink/25 px-4 py-2 font-mono text-[10px] uppercase tracking-[0.25em] transition-colors duration-300 hover:bg-ink hover:text-paper md:inline-flex"
+          >
+            <span className="relative inline-flex size-1.5 items-center justify-center">
+              <span className="absolute inline-flex size-full rounded-full bg-accent opacity-60 blink" />
+              <span className="relative inline-flex size-1.5 rounded-full bg-accent" />
+            </span>
+            Available
+          </a>
+        </div>
       </div>
     </nav>
   );
