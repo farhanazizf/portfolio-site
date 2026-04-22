@@ -7,6 +7,20 @@ const items = [
   "Web · Mobile · Platform",
 ];
 
+function Star() {
+  return (
+    <svg
+      viewBox="0 0 12 12"
+      width="1em"
+      height="1em"
+      fill="currentColor"
+      aria-hidden="true"
+    >
+      <path d="M6 0L7.3 4.7L12 6L7.3 7.3L6 12L4.7 7.3L0 6L4.7 4.7Z" />
+    </svg>
+  );
+}
+
 export default function Marquee() {
   return (
     <div className="overflow-hidden border-y border-line bg-paper py-7">
@@ -22,7 +36,7 @@ export default function Marquee() {
                   className="mr-12 not-italic text-accent"
                   style={{ fontSize: "0.55em" }}
                 >
-                  ✦
+                  <Star />
                 </span>
                 <span className="whitespace-nowrap">{t}</span>
               </div>
