@@ -1,0 +1,32 @@
+{
+  "schools": [
+    {
+      "year": "2022 — 24",
+      "school": "Perbanas Institute",
+      "degree": "Bachelor of Information System",
+      "gpa": "3.52 / 4.00"
+    },
+    {
+      "year": "2016 — 19",
+      "school": "Bogor Agricultural Institute",
+      "degree": "Associate, Computer Engineering",
+      "gpa": "3.45 / 4.00"
+    }
+  ],
+  "languages": [
+    { "name": "Indonesian", "level": "Native" },
+    { "name": "English", "level": "Fluent" }
+  ],
+  "achievements": [
+    {
+      "title": "Perbasi Basketball Cup",
+      "detail": "1st place — City level",
+      "year": "2015 & 2016"
+    },
+    {
+      "title": "Kerjurda Tournament",
+      "detail": "2nd place — Regional Province",
+      "year": "2015"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "firstName": "Farhan",
+  "middleName": "Aziz",
+  "lastName": "Fajarrudin",
+  "monogram": "FA°",
+  "role": "Senior Software Engineer",
+  "company": "Diamond Food Indonesia",
+  "location": "Jakarta, Indonesia",
+  "tagline": "Engineering scalable web & mobile platforms — from startups to government technology programs serving millions of users daily.",
+  "bio": [
+    "I'm a software engineer with six years of practice shipping production interfaces for fintech, government, FMCG and education platforms across Indonesia.",
+    "Currently leading frontend work at Diamond Food Indonesia — modernising B2B commerce that processes billions of rupiah in daily transactions. Previously contributed to GovTech Edu at Telkom Indonesia, building tools used inside the Ministry of Education."
+  ],
+  "stats": [
+    { "value": "6+", "label": "Years building" },
+    { "value": "09", "label": "Companies shipped with" },
+    { "value": "02", "label": "Degrees" },
+    { "value": "∞", "label": "Commits ahead" }
+  ],
+  "availability": "Available · 2026"
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "year": "2025 —",
+    "company": "Diamond Food Indonesia Tbk",
+    "role": "Senior Software Engineer",
+    "context": "B2B commerce for FMCG at scale",
+    "stack": ["React", "Next.js", "Node.js", "AWS", "TypeScript", "Firebase"]
+  },
+  {
+    "year": "2022 — 24",
+    "company": "GovTech Edu · Telkom Indonesia",
+    "role": "Software Engineer",
+    "context": "Ministry of Education, Culture, Research & Technology",
+    "stack": ["React", "Next.js", "Vue", "Node.js", "GCP", "Laravel", "Go"]
+  },
+  {
+    "year": "2024",
+    "company": "Bagus Harapan Tritunggal",
+    "role": "Software Engineer · Freelance",
+    "context": "Ministry of Marine Affairs & Fisheries",
+    "stack": ["React", "JavaScript", "CI/CD"]
+  },
+  {
+    "year": "2024",
+    "company": "RevoU",
+    "role": "Software Engineer · Mentor",
+    "context": "Mentored ~40 students across Kampus Merdeka",
+    "stack": ["Curriculum", "REST API", "JavaScript", "Mentorship"]
+  },
+  {
+    "year": "2020 — 22",
+    "company": "PT. Sarana Multigriya Finansial",
+    "role": "Software Engineer · Freelance",
+    "context": "Government company under Ministry of Finance",
+    "stack": ["React Native", "React", "TypeScript", "Node.js"]
+  },
+  {
+    "year": "2020 — 22",
+    "company": "PT. Achiko Teknologi Indonesia",
+    "role": "Software Engineer · Mobile & Web",
+    "context": "Global startup, cross-functional product team",
+    "stack": ["React", "React Native", "Ionic", "iOS", "Android"]
+  },
+  {
+    "year": "2019 — 20",
+    "company": "CNN Indonesia · Trans News Corpora",
+    "role": "Research Development Specialist",
+    "context": "Web platform research & implementation",
+    "stack": ["TypeScript", "JavaScript", "Git"]
+  },
+  {
+    "year": "2019",
+    "company": "Qiblat.id",
+    "role": "Developer · Freelance",
+    "context": "Database & web system from scratch",
+    "stack": ["Laravel", "React", "Figma"]
+  },
+  {
+    "year": "2019",
+    "company": "Indonesian Institute of Science",
+    "role": "Embedded Project Engineer · Internship",
+    "context": "End-to-end IoT systems with sensor analytics",
+    "stack": ["IoT", "C++", "MQTT", "Embedded"]
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "email": "farhanazizf7@gmail.com",
+  "phone": "+62 857 7684 1027",
+  "links": [
+    { "label": "LinkedIn", "handle": "@farhanazizf", "url": "https://linkedin.com/in/farhanazizf" },
+    { "label": "GitHub", "handle": "@farhanazizf", "url": "https://github.com/farhanazizf" },
+    { "label": "Email", "handle": "farhanazizf7@gmail.com", "url": "mailto:farhanazizf7@gmail.com" }
+  ]
+}

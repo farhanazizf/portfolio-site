@@ -1,0 +1,68 @@
+[
+  {
+    "no": "01",
+    "id": "sukanda-onelink",
+    "title": "Sukanda Onelink",
+    "description": "Comprehensive B2B e-commerce platform for food and beverage industry with product catalog, order management, and business solutions.",
+    "url": "https://www.sukandaonelink.com",
+    "techStack": ["React", "TypeScript", "NodeJS", "Fastify", "SAP", "AWS"],
+    "featured": true,
+    "year": "2025",
+    "tag": "Live"
+  },
+  {
+    "no": "02",
+    "id": "kampus-merdeka",
+    "title": "Kampus Merdeka Ecosystem",
+    "description": "A comprehensive educational platform for Indonesian students to take control of their future. Features program discovery, application management, and student progress tracking.",
+    "url": "https://kampusmerdeka.kemdikbud.go.id",
+    "techStack": ["React", "Next.js", "Node.js", "GCP", "Firebase", "TypeScript"],
+    "featured": true,
+    "year": "2024",
+    "tag": "Live"
+  },
+  {
+    "no": "03",
+    "id": "marine-affairs",
+    "title": "Marine Affairs Management System",
+    "description": "Government web application for Ministry of Marine Affairs and Fisheries to manage marine resources and fisheries data across Indonesia.",
+    "url": null,
+    "techStack": ["React", "JavaScript", "REST API", "CI/CD"],
+    "featured": false,
+    "year": "2024",
+    "tag": "Gov"
+  },
+  {
+    "no": "04",
+    "id": "financial-system",
+    "title": "Multigriya Financial System",
+    "description": "Government financial management system for PT. Sarana Multigriya Finansial under Ministry of Finance Indonesia.",
+    "url": null,
+    "techStack": ["React Native", "React.js", "Node.js", "TypeScript"],
+    "featured": false,
+    "year": "2022",
+    "tag": "Gov"
+  },
+  {
+    "no": "05",
+    "id": "person-apps-teman-sehat",
+    "title": "Teman Sehat",
+    "description": "Healthcare app for personal users — features booking lab tests, vaccination scheduling, voucher purchase and more. Built during the COVID-19 period.",
+    "url": "https://www.person.teman-sehat.co.id",
+    "techStack": ["JavaScript", "React JS (Ionic)", "Android"],
+    "featured": false,
+    "year": "2021",
+    "tag": "Health"
+  },
+  {
+    "no": "06",
+    "id": "iot-monitoring",
+    "title": "IoT Environmental Monitoring",
+    "description": "End-to-end IoT system for environmental monitoring with real-time data collection, analysis, and visualisation dashboard.",
+    "url": null,
+    "techStack": ["IoT", "C++", "MQTT", "Data Analytics"],
+    "featured": false,
+    "year": "2019",
+    "tag": "IoT"
+  }
+]
