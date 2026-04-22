@@ -1,3 +1,4 @@
+import { motion, useScroll } from "motion/react";
 import { useEffect, useState } from "react";
 
 const links = [
@@ -9,6 +10,7 @@ const links = [
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
+  const { scrollYProgress } = useScroll();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 80);
@@ -25,10 +27,21 @@ export default function Nav() {
           : "border-b border-transparent bg-transparent"
       }`}
     >
+      {/* Scroll progress bar */}
+      <motion.div
+        className="absolute inset-x-0 top-0 h-px origin-left bg-accent"
+        style={{ scaleX: scrollYProgress }}
+      />
+
       <div className="mx-auto flex max-w-[1600px] items-center justify-between px-6 py-5 md:px-10 md:py-6">
-        <a href="#top" className="group flex items-baseline gap-1 font-display text-xl tracking-tight">
-          <span className="italic font-light">Farhan</span>
-          <span className="text-accent transition-transform duration-500 group-hover:rotate-180 inline-block">°</span>
+        <a
+          href="#top"
+          className="group flex items-baseline gap-1 font-display text-xl tracking-tight"
+        >
+          <span className="font-light italic">Farhan</span>
+          <span className="inline-block text-accent transition-transform duration-500 group-hover:rotate-180">
+            °
+          </span>
         </a>
 
         <ul className="hidden items-center gap-10 font-mono text-[10px] uppercase tracking-[0.25em] md:flex">
