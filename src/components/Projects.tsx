@@ -141,7 +141,7 @@ export default function Projects() {
     <section id="projects" className="px-6 py-32 md:px-10 md:py-48">
       <div className="mx-auto max-w-[1600px]">
         <SectionLabel
-          number="05"
+          number="04"
           title="Portfolio"
           meta={`${projects.length} projects · featured & archive`}
         />

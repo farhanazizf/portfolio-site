@@ -9,7 +9,7 @@ export default function Education() {
       className="border-t border-line bg-paper-soft px-6 py-32 md:px-10 md:py-48"
     >
       <div className="mx-auto max-w-[1600px]">
-        <SectionLabel number="04" title="Foundations" meta="Studies, languages & laurels" />
+        <SectionLabel number="05" title="Foundations" meta="Studies, languages & laurels" />
 
         <Reveal>
           <h2 className="mb-16 font-display text-4xl font-light leading-[1] tracking-[-0.03em] md:mb-20 md:text-6xl">
